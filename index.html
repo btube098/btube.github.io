@@ -383,12 +383,7 @@ body#layout #Blog1:before {content: &quot;Main Blog&quot;;font-size: 14px; color
 <style type='text/css'>
 /*========================== CSS Breaking News ==========================*/
 #breakingnews {margin-right:15px;height:42px;line-height:29px;overflow:hidden;width:30%;float:left;}
-#breakingnews .breakhead {position: absolute; color: #333; display: block; float: left; font-family: &#39;Poppins&#39;, sans-serif; font-size: 12px; font-weight: 600; padding: 7px 22px;}
-#adbreakingnews li a {font-weight: 500; color: #333; transition: all 0.5s ease-in-out; font-family: &#39;Poppins&#39;, sans-serif; font-size: 12px;}
-#adbreakingnews {float: left; margin-left: 110px; margin-top:9px;}
-#adbreakingnews ul,#adbreakingnews li{list-style:none;margin:0;padding:0}
 .play-button, .overlayb {position: absolute;top: 48px;right:85px;color:#fff;text-transform: uppercase;font-size:25px;  transition: all .3s ease-out;}
-.overlayb:after {content: &quot;\f04b&quot;;}
 .fa-play {background: rgba(0, 0, 0, 0.75); padding: 10px 17px; border-radius: 100%; padding-right: 10px;border: 2px solid #fff}
 .play-button:hover {color: rgb(255, 24, 24);  transition: all .3s ease-out;}
 .play-button:hover .fa-play {color: rgb(255, 24, 24);  transition: all .3s ease-out;border:2px solid}
@@ -409,7 +404,6 @@ body#layout #Blog1:before {content: &quot;Main Blog&quot;;font-size: 14px; color
 .top-gridnav {display:block;margin:0 auto;float:left;padding:0;width:100%;background:transparent;border:none;}
 .top-gridnav ul {width:100%;padding:0;margin:0;text-align:left;}
 .top-gridnav li {list-style-type:none;float:left;padding:0;margin:0;}
-.top-gridnav li a {position:relative;font-family:&#39;Poppins&#39;, sans-serif;font-size:14px;font-weight:400;background-color:transparent;color:#7f939d;display:block;margin:0;padding:8px 2px;line-height:100%;transition:color 0.3s;}
 .top-gridnav ul li a:active, .top-gridnav ul li.highlight a {line-height:100%;text-decoration:none;}
 .top-gridnav ul li a:hover {color:#F7F7F7;text-decoration:none;}
 .top-gridnav li.sosmed {float:right;}
@@ -432,9 +426,7 @@ body#layout #Blog1:before {content: &quot;Main Blog&quot;;font-size: 14px; color
 .recpost .rcp-title{font-size:15px;font-weight:600;text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
 .recpost .rcp-title a{color:#fff;font-weight:500;font-size:14px}
 .recpost .rcp-title a:hover{color:#4791d2;text-decoration:none}
-.recent-date:before{content:&#39;\f017&#39;;font-family:fontawesome;color:#fff}
 .recent-date{color:#fff;font-weight:600;font-size:11px}
-.recent-author:before{content:&#39;\f007&#39;;font-family:fontawesome;color:#fff}
 .recent-author{color:#fff;font-weight:600;font-size:11px}
 
 
@@ -453,31 +445,22 @@ body#layout #Blog1:before {content: &quot;Main Blog&quot;;font-size: 14px; color
 #nav{font-weight: 500; margin: 0 auto; font-size: 13px;float: right;}
 #menubar {margin: 0 auto;display: inline-flex;}
 .menu-nav {list-style:none;margin:0 0 0 0;float:left;}
-.menu-nav:before,.menu-nav:after {content: &quot; &quot;;display:table;}
 .menu-nav:after {clear:both;}
 .menu-nav ul {list-style:none;margin:0 0 0 0;width:12em;}
 .menu-nav a {display:block;padding:0 15px;}
 .menu-nav li {position:relative;margin:0 0;}
-.menu-nav &gt; li {float:left;}
-.menu-nav &gt; li &gt; a {display: block; height: 60px; line-height: 60px; color: #333; text-transform: uppercase; font-weight: 600; letter-spacing: 0.3px; font-size: 13px;}
 .menu-nav li ul {display:block;position:absolute;left:0;z-index:10;visibility:hidden;opacity:0;box-shadow:0 0 5px rgba(0,0,0,0.1);transition:initial;border-radius: 5px;}
 .menu-nav li li ul {left:100%;top:-1px;}
-.menu-nav &gt; li.hover &gt; ul {visibility:visible;opacity:1;}
 .menu-nav li li.hover ul {visibility:visible;opacity:10;}
 .menu-nav li li a {display:block;color:#333;position:relative;z-index:100;text-transform:none;height:46px;line-height:46px;font-weight:400;transition:initial;}
 .menu-nav li li li a {background:#313541;z-index:20;color:#fff;}
 .menu-nav li:hover .parent:after{color:#333;}
-.menu-nav li ul li .parent:after {content: &quot;\f0da&quot;;font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:inherit;padding-left:6px;color:rgba(255,255,255,0.5);float:right;}
 .menu-nav li ul li .parent:hover:after {color:rgba(255,255,255,1);}
 .menu-touch {display:none;background:rgba(0, 0, 0, 0.12);;padding:0 15px;height:60px;line-height:60px;color:#fff!important;}
 .menu-touch:hover {background:rgba(0, 0, 0, 0.12);;}
 #search-form{float:right;margin:0;max-width:250px}
 #search-form table {width:100%;margin:0;}
 td.search-box{position:relative;overflow:hidden;height:42px;line-height:42px}
-#search-form input#search-box[type=&quot;text&quot;]{background: #fff; line-height: 40px; margin: 10px; padding: 0 20px; color: #000; transition: all .55s; border-radius: 60px; border: 1px solid #eee; font-family: &#39;Poppins&#39;, sans-serif;}
-#search-form input#search-box[type=&quot;text&quot;]:focus {background:rgba(255,255,255,1);color:#7f939d;outline:none;}
-#search-form input#search-button[type=&quot;submit&quot;]{position: absolute; top: 0; right: 8px; display: inline-block; font-family: FontAwesome; background: transparent; color: rgb(0, 0, 0); margin: 0; padding: 24px 25px; border: none; outline: none; transform: rotate(0deg); transition: all .55s;}
-#search-form input#search-button[type=&quot;submit&quot;]:hover{color:#f17c72;cursor:pointer;}
 
 /*========================== CSS Post Wrapper ==========================*/
 .post {margin:0;padding:15px;}
@@ -526,19 +509,12 @@ background:none;outline:none;}
 .PopularPosts ul li .item-title a, .PopularPosts ul li a {font-weight:700;color:#444444;text-decoration:none;transition:all 0.3s ease-out;line-height: 1.6;}
 .PopularPosts ul li .item-title a:hover, .PopularPosts ul li a:hover {color:#EE8F04;text-decoration:underline}
 .PopularPosts ul li:before {display:none;list-style:none;}
-.PopularPosts ul li:first-child &gt; a:before {content:&quot;hot&quot;;font-size:10px;font-weight:400;padding:0 4px;border-radius:2px;color:#fff;background:#f0b26f;display:inline-block;position:absolute;right:0;top:0;padding-top:0}
 .PopularPosts .item-thumbnail {margin:0;}
 .PopularPosts .item-snippet {font-size: 13px; color: #555; font-weight: 400; margin-top: 10px;}
 .profile-img{display:inline;opacity:1;margin:0 6px 3px 0;}
 .PopularPosts .item-title {padding-bottom:.2em;padding:0;}
 .PopularPosts ul{margin:0;list-style:none;color:#64707a}
 .PopularPosts ul li{position:relative;background-color:#fff;margin:0;padding:.7em 0!important;border:0;position:relative;border-bottom:1px dotted rgba(0,0,0,0.2)}
-.PopularPosts ul li:before{font-family:fontawesome;content:&#39;\f005\f005&#39;;display:inline-block;position:absolute;color:#f39c12;text-align:center;bottom:0;right:0;margin:9px 0;font-size:11px;padding:0;font-weight:normal;line-height:normal;transition:all .3s}
-.PopularPosts ul li:nth-child(1):before{font-family:fontawesome;content:&#39;\f005\f005\f005\f005\f005&#39;;}
-.PopularPosts ul li:nth-child(2):before{font-family:fontawesome;content:&#39;\f006\f005\f005\f005\f005&#39;;opacity:.9}
-.PopularPosts ul li:nth-child(3):before{font-family:fontawesome;content:&#39;\f006\f006\f005\f005\f005&#39;;opacity:.85}
-.PopularPosts ul li:nth-child(4):before{font-family:fontawesome;content:&#39;\f006\f006\f006\f005\f005&#39;;opacity:.8}
-.PopularPosts ul li:nth-child(5):before{font-family:fontawesome;content:&#39;\f006\f006\f006\f006\f005&#39;;opacity:.75}
 .PopularPosts ul li:hover:before{opacity:1}
 
 /*========================== CSS Blog Navigation ==========================*/
@@ -585,35 +561,23 @@ iframe#covervideo {height:300px;}
 #content-wrapper {padding:0;}
 h3.post-title a, h2.post-title a, h1.post-title a, h3.post-title, h2.post-title, h1.post-title,.post-information,.post-information span {text-overflow:initial;white-space:normal;overflow:visible;width:initial}
 #recent1 .title {margin-top: 0; margin-bottom: 15px;}
-<b:if cond='data:blog.url == data:blog.homepageUrl'>
 h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {clear:both;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
-</b:if>
 .post {padding:0 10px 30px 10px;}
 .post-body {text-overflow:ellipsis;visibility:visible;width:initial;height:initial;opacity:1;padding:0;}
 #outer-wrapper { margin: 5px; margin-top:0;margin-bottom:0;padding:5px; padding-top:0; padding-bottom:0;}
 .topbar-wrapper {margin:0;}
 .top-wrappers {margin:0;text-align: center;}
 #nav {margin:0;padding:0 20px;border-bottom:0;border-top:0;float:left;background:#ff4444; width: 100%;}
-.menu-nav &gt; li &gt; a {color:#fff;}
-.menu-nav &gt; li &gt; a.active {border-top:4px solid #f17c72;color:#fff;}
-.menu-nav &gt; li:hover &gt; a, .menu-nav &gt; li &gt; a.active:hover {color:#fff;}
 .nav-plus li ul:before {display:none;}
-.nav-plus &gt; li {float:none;overflow:hidden;}
 .nav-plus ul {display:block;width:100%;float:none;}
 .menu-nav li ul {background:#373b47;box-shadow:none;}
 .menu-nav li ul li a{color: #fff;}
 .menu-nav li li a:hover {background:#f17c72;}
-.menu-nav &gt; li &gt; a.active{padding:0 15px;}
-.nav-plus &gt; li.hover &gt; ul , .nav-plus li li.hover ul {position:static;}
-.menu-nav li .parent:after,.menu-nav li ul li .parent:after {content: &quot;\f0d7&quot;;font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:inherit;padding-right:5px;float:right;color:#fff;}
 .menu-nav li:active .parent:after,.menu-nav li ul li:active .parent:after {background:#fff;}
 #search-form {width:100%;margin:0!important;float:none}
 #search-form table{width:100%;margin:20px 0;background:#f6f6f6;border-radius:5px}
 #search-form td.search-box {padding:0 10px!important;}
 #search-form td.search-button {padding:0 10px;width:1%;}
-#search-form input#search-box[type=&quot;text&quot;] {width:100%;margin:0;background:#f6f6f6;color:#666;}
-#search-form input#search-button[type=&quot;submit&quot;]{margin:0 0 0 -6px;padding:14px 25px;color:#7f939d}
-#search-form input#search-box[type=&quot;text&quot;]:focus {background:#f6f6f6;outline:none;}
 #header a:before,#header a:after{display:none;}
 #post-wrapper {width:100%;max-width:100%;margin:20px auto;}
 .post-body img {max-width:90%;}
@@ -687,7 +651,6 @@ img.author-photo{height:22px;width:22px;border-radius:100%;margin:0 3px 0 0}
 .social-links a {border-bottom: none;}
 .social-links a:after, .social-links a:before{content: none!important;}
  .social-links i {background: #f0f0f0; color: #787878; font-size: 17px; text-align: center; display: inline-block; padding: 7px 25px; margin: 0px 3px;border-radius:3px;}
-.social-links i:hover {background:$(main.color); color: #fff; transition: all ease .3s; }
 .author-box .avatar{margin-left: 2.4rem; float: right !important; border: 2px solid #F0F0F0; padding: 2px; }
 </style>
 </b:if>
@@ -698,15 +661,12 @@ img.author-photo{height:22px;width:22px;border-radius:100%;margin:0 3px 0 0}
 .post-body a.img,.post-body .separator a {margin-left:0!important;margin-right:0!important;}
 h3.post-title a,h2.post-title a,h1.post-title a,h3.post-title,h2.post-title,h1.post-title{color:#414042;}
 .post-information{max-width:100%}
-.label-info {opacity:1;visibility:visible;width:initial;height:initial;font-family: &#39;Poppins&#39;, sans-serif;color:#414042;font-size: 13px; font-weight: 600;text-transform: uppercase;}
 .label-info a {background: #fff;color: #333; border: 1px solid #ddd; padding: 6px 10px; font-weight: 500; font-size: 11px; border-radius: 5px;}
 #blog-pager {margin:0;padding-top:15px;}
 a.blog-pager-newer-link,a.blog-pager-older-link,a.home-link{width:initial;height:initial;line-height:initial;padding:5px 0;margin:0;border:initial;}
 #blog-pager-newer-link a,#blog-pager-older-link a{font-size:100%}
 #sidebar-section {float:right;width:29%;opacity:1;visibility:visible;height:initial;}
-.sidebar-inner {}
 .sidebar .widget-content {background: #fff; overflow: hidden;}
-.sidebar h2{font-family: &#39;Poppins&#39;, sans-serif; font-size: 14px; text-transform: uppercase; font-weight: 600; color: #333; padding-bottom: 15px; margin: 0; display: block;}
 .sidebar-inner .widget {background:#fff;margin: 0 0 20px; border: 1px solid #eee; border-radius: 7px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
 .sidebar ul, .sidebar ol {list-style-type:none;margin:0 0 0 0;padding:0;padding-top:0;}
 .sidebar li {margin:5px 0;padding:0 0 0 0;}
@@ -716,7 +676,6 @@ a.blog-pager-newer-link,a.blog-pager-older-link,a.home-link{width:initial;height
 
 #related-post {background: #fff;margin:0 auto;padding: 15px; border-bottom: 1px solid #eee;}
 .relhead {font-size:100%;font-weight:normal;line-height:150%;overflow:hidden;}
-.relhead h5 {}
 #related-summary .news-text {display:none;visibility:hidden;opacity:0;position:absolute;top:-20px;left:0;text-align:left;background:rgba(0, 0, 0, 0.54);color:#fff;margin:10px;padding:10px;overflow:hidden;font-size:80%;max-height:110px;text-rendering:optimizeSpeed;text-overflow:ellipsis;}
 #related-summary li:hover .news-text {top:0;visibility:visible;opacity:1;}
 ul#related-summary {margin: 0; background: #fff; overflow: hidden; padding: 15px 0; padding-bottom: 0;}
@@ -816,17 +775,13 @@ body{padding:0}
 <style type='text/css'>
 #outer-wrapper {visibility:hidden;opacity:0;width:0;height:0;}
 /* CSS Custom Error Page */
-#oopss {background:#333;text-align:center;margin-bottom:50px;font-weight:400;font-size:20px;font-family:&#39;Poppins&#39;, sans-serif;position:fixed;width:100%;height:100%;line-height:1.5em;z-index:9999;}
 #error-text {top:30%;position:relative;font-size:20px;color:#eee;}
 #error-text a{color:#eee;}
 #error-text a:hover{color:#fff;}
 #error-text p {color:#eee;margin:50px 0 0 0;}
 #error-text i {margin-left:10px;}
 #error-text p.hmpg {margin:20px 0 0 0;}
-#error-text span {position:relative;background:#f17c72;color:#fff;font-size:450%;padding:0 20px;border-radius:5px;font-family:&#39;Poppins Condensed&#39;;font-weight:700;letter-spacing:3px;transition:all .5s}
 #error-text span:hover {background:#d7401f;color:#fff;-webkit-animation:jelly .5s;-moz-animation:jelly .5s;-ms-animation:jelly .5s;-o-animation:jelly .5s;animation:jelly .5s;}
-#error-text span:after {top:100%;left:50%;border:solid transparent;content:&quot; &quot;;height:0;
-width:0;position:absolute;pointer-events:none;border-color:rgba(136,183,213,0);border-top-color:#f17c72;border-width:7px;margin-left:-7px;}
 @-webkit-keyframes jelly{
 from,to{-webkit-transform:scale(1,1);transform:scale(1,1)}25%{-webkit-transform:scale(.9,1.1);transform:scale(.9,1.1)}50%{-webkit-transform:scale(1.1,.9);transform:scale(1.1,.9)}75%{-webkit-transform:scale(.95,1.05);transform:scale(.95,1.05)}}
 @keyframes jelly{
@@ -992,7 +947,6 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 <ul class='nav-plus menu-nav'>
 <li><a class='active' href='/'><span itemprop='name'>Home</span></a></li>
 </ul>
-<form action='/search' id='search-form' method='get' style='display: inline;'><table><tbody><tr><td class='search-box'><input id='search-box' name='q' onblur='if(this.value==&apos;&apos;)this.value=this.defaultValue;' onfocus='if(this.value==this.defaultValue)this.value=&apos;&apos;;' type='text' value='Search...'/><input id='search-button' type='submit' value=''/></td></tr></tbody></table></form>
   </div>
 </nav>
 </div>
@@ -1234,7 +1188,6 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
     <b:include name='feedLinks'/>
     <b:if cond='data:top.showStars'>
       <script src='//www.google.com/jsapi' type='text/javascript'/>
-      <script type='text/javascript'>google.load(&quot;annotations&quot;,&quot;1&quot;,{locale:&quot;<data:top.languageCode/>&quot;});function initialize(){google.annotations.setApplicationId(<data:top.blogspotReviews/>);google.annotations.createAll();google.annotations.fetch()}google.setOnLoadCallback(initialize);</script>
     </b:if>
   <b:else/>
     <b:include name='mobile-main'/>
@@ -1300,7 +1253,6 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
     <data:post.friendConnectJs/>
     <data:post.cmtfpIframe/>
     <script type='text/javascript'>
-      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
     </script>
   </div>
 </b:includable>
@@ -1783,7 +1735,6 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:post.thumbnailUrl'>
 <a expr:href='data:post.url'><div class='post-image'><script type='text/javascript'>
-   document.write(postthumbnail(&quot;<data:post.thumbnailUrl/>&quot;,&#39;<data:post.title/>&#39;));
 </script>
 </div>
 </a>
@@ -1887,7 +1838,6 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 		<div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id'>
 			<div>
 <div expr:id='&quot;summary&quot; + data:post.id'><data:post.body/></div>
-<script type='text/javascript'>createSnippet(&quot;summary<data:post.id/>&quot;);</script>
 			</div>
       <div style='clear:both'/>	
 		</div>	
@@ -2011,7 +1961,6 @@ var reljudul=new Array();var relurls=new Array();var relcuplikan=new Array();var
     </b:if>
     <data:post.friendConnectJs/>
     <data:post.cmtfpIframe/>
-    <script type='text/javascript'>
       BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
     </script>
   </div>
@@ -2308,21 +2257,6 @@ var ww=document.body.clientWidth;$(document).ready(function(){$(".nav-plus li a"
 // Back to top===============================
 $(function(){ $(document).on( 'scroll', function(){ if ($(window).scrollTop() > 100) { $('.smoothscroll-top').addClass('show'); } else { $('.smoothscroll-top').removeClass('show'); } }); $('.smoothscroll-top').on('click', scrollToTop); }); function scrollToTop() { verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0; element = $('body'); offset = element.offset(); offsetTop = offset.top; $('html, body').animate({scrollTop: offsetTop}, 600, 'linear').animate({scrollTop:25},200).animate({scrollTop:0},150) .animate({scrollTop:0},50); }
 
-// Popular Post Snippet===============================
-$(".popular-posts ul li .item-snippet").each(function(){var t=$(this).text().substr(0,70),s=t.lastIndexOf(" ");s>52&&$(this).text(t.substr(0,s).replace(/[?,!\.-:;]*$/,"..."))});
-
-// Related Post Thumb===============================
-$(".authorAvatar img").each(function(){$(this).attr("src",$(this).attr("src").replace(/\/s[0-9]+(\-c)?\//,"/w50-h50-c/"))});
-$("ul#related-summary li img").each(function(){$(this).attr("src",$(this).attr("src").replace(/\/s[0-9]+(\-c)?\//,"/w243-h343-c/"))});
-//]]>
 </script>
-
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
-<script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52dfeec03e773ce5' type='text/javascript'/>
-<script type='text/javascript'>
-(function(d, t, e, m){ window.RW_Async_Init = function(){ RW.init({ huid: &quot;218667&quot;, uid: &quot;90408ddfc0c54bbddf761167a1f7ab87&quot;, options: { &quot;style&quot;: &quot;oxygen&quot; } }); RW.render(); }; var rw, s = d.getElementsByTagName(e)[0], id = &quot;rw-js&quot;, l = d.location, ck = &quot;Y&quot; + t.getFullYear() + &quot;M&quot; + t.getMonth() + &quot;D&quot; + t.getDate(), p = l.protocol, f = ((l.search.indexOf(&quot;DBG=&quot;) &gt; -1) ? &quot;&quot; : &quot;.min&quot;), a = (&quot;https:&quot; == p ? &quot;secure.&quot; + m + &quot;js/&quot; : &quot;js.&quot; + m); if (d.getElementById(id)) return; rw = d.createElement(e); rw.id = id; rw.async = true; rw.type = &quot;text/javascript&quot;; rw.src = p + &quot;//&quot; + a + &quot;external&quot; + f + &quot;.js?ck=&quot; + ck; s.parentNode.insertBefore(rw, s); }(document, new Date(), &quot;script&quot;, &quot;rating-widget.com/&quot;));
-</script>
-</b:if>
-
-</body>
-</html>
+      </body>
+        </html>
